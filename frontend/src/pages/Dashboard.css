@@ -1,0 +1,119 @@
+/* Dashboard.css */
+.dashboard {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffd600;
+    color: black;
+    z-index: 1000;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.left h1 {
+    margin: 5px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.right span {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.user-icon {
+    font-size: 1.5rem;
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 150%;
+    right: 10%;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover {
+    background-color: #ffe7c9;
+}
+
+.dropdown button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: large;
+}
+
+.dropdown button:hover {
+    background-color: #ffe7c9;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 0px;
+    z-index: 999;
+    margin-top: 69px;
+}
+
+.sidebar-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+}
+
+.sidebar-button:hover {
+    background-color: #bbb;
+}
+
+/* Active state for sidebar button */
+.sidebar-button.active {
+    background-color: black; /* Change to desired active color */
+    color: white; /* Change to desired active text color */
+}

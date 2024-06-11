@@ -1,0 +1,137 @@
+.home-page {
+    background-image: url('https://images.unsplash.com/photo-1524863479829-916d8e77f114?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Adjust the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+.signup-page {
+    background-image: url('https://images.unsplash.com/photo-1524863479829-916d8e77f114?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.login-page {
+    background-image: url('https://images.unsplash.com/photo-1524863479829-916d8e77f114?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.homeh1 {
+    font-family:Arial;
+    font-size: 50px;
+    margin: 0px;
+}  
+
+.homeh2 {
+    margin: 0px;
+    font-size: 15px;
+    color: white;
+}
+
+.hslh2 {
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.form-grouphsl {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.transparent-blockhsl {
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the alpha value (4th parameter) for transparency */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 20px;
+    align-self: center;
+}  
+ 
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+}
+
+.buttons1 {
+    margin-top: 20px;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #ffd600;
+}
+
+.button2 {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #ffd600;
+}
+  
+.button3 {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: #ffd600;
+}

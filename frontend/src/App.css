@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.Contact {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: 45px;
+  
+}
+
+.Contact .heading {
+  background: url("./images/contact-us.jpeg") no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+
+.Contact .heading::before {
+  content: "Contact Us";
+  align-items: center;
+    background-color: #0000004d;
+    color: #fff;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    height: 60vh;
+    width: 100%;
+}
+
+.Contact .queries {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.Contact .queries .separetor {
+  width: 70px;
+  padding-top: 1px;
+  background-color: black;
+}
+
+.Contact .queries {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Contact .querycards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Contact .queries-card {
+  width: 20%;
+  background-color: rgb(250, 250, 250);
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.Contact .queries-card h5 {
+  font-size: 18px;
+  color: rgb(7, 138, 158);
+}
+
+.Contact .form {
+  display: flex;
+  background-color: rgb(240, 240, 240);
+  margin: 100px 0px !important;
+}
+
+.Contact .form .left {
+  width: 50%;
+  padding: 50px;
+  margin-top: 8%;
+}
+
+.Contact .form .right {
+  width: 50%;
+  margin: 50px 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.Contact .form .right input,
+.Contact .form .right textarea {
+  padding: 5px 10px;
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid black !important;
+  background-color: white !important;
+  font-size: 18px !important;
+
+  transition: all 0.3s linear;
+}
+
+.Contact .form .right input:focus,
+.Contact .form .right textarea:focus,
+.Contact .form .right input:hover,
+.Contact .form .right textarea:hover {
+  outline: 1px solid rgb(7, 138, 158);
+  border: 1px solid rgb(7, 138, 158) !important;
+  border-radius: 6px;
+  transition: all 0.4s linear;
+}
+
+.Contact .form .right input:focus,
+.Contact .form .right textarea:focus {
+  outline: 1px solid rgb(7, 138, 158);
+  border: 1px solid rgb(7, 138, 158) !important;
+  border-radius: 8px;
+}
+
+.Contact .form .right button,
+.shopping-cart-btn {
+  background-color: rgb(7, 138, 158);
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 0px !important;
+  margin-top: 10px;
+  transition: all 0.3s linear;
+  width: 100%;
+    color: white;
+}
+
+.Contact .form .right button:hover,
+.shopping-cart-btn:hover {
+  background-color: rgb(5, 111, 128);
+}

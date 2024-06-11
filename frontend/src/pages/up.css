@@ -1,0 +1,17 @@
+.bstyle {
+    color: black;
+    background-color: #ffd600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bstyle:hover {
+    font-weight: bold;
+}
+
+.blabel{
+    font-weight: bold;
+    padding-right: 10px;
+}
